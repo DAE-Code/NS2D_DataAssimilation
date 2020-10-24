@@ -48,7 +48,7 @@
 
 結果の可視化に使用するライブラリもインストールしておきます．
 ```
-> sudo pip install numpy
-> sudo pip install scipy
-> sudo pip install matplotlib
+> sudo pip3 install numpy
+> sudo pip3 install scipy
+> sudo pip3 install matplotlib
 ```
