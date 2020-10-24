@@ -44,7 +44,6 @@
 計算結果のグラフ化にはPythonを用います．Python 3.xがインストールされていない場合には以下でインストールします．
 ```
 > sudo apt install python3 python3-pip -y
-> sudo pip3 install pip -U
 ```
 
 結果の可視化に使用するライブラリもインストールしておきます．
