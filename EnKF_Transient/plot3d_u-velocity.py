@@ -1,6 +1,3 @@
-#!usr/bin/python
-# -*- coding: UTF-8 -*-
-
 import sys
 import numpy as np
 from scipy import io
@@ -29,7 +26,7 @@ ib = xx[2].reshape([imx,jmx], order='F')
 fp = io.FortranFile(sys.argv[2],"r")
 fp.read_ints(np.int32)
 index = fp.read_record(np.dtype(('<i4',(1,))), np.dtype(('<i4',(1,))))
-imax, jmax = index[0],index[1]
+imax, jmax = index[0], index[1]
 param = fp.read_record(np.dtype(('<f4',(4))))
 uu = fp.read_record(np.dtype(('<f4',imax*jmax)),np.dtype(('<f4',imax*jmax)),np.dtype(('<f4',imax*jmax)),np.dtype(('<f4',imax*jmax)))
 fp.close()
@@ -37,7 +34,7 @@ fp.close()
 q = uu[int(sys.argv[3])].reshape([imx,jmx], order='F')
 
 # plot
-fig = plt.figure(dpi=150)
+fig = plt.figure()
 ax = plt.axes()
 levels = [-0.6, -0.4, -0.2, 0.0, 0.2, 0.4, 0.6, 0.8, 1.0, 1.2, 1.4]
 plt.contourf(x, y, q, levels, cmap='gray')
