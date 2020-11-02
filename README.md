@@ -8,8 +8,8 @@
 
 環境が構築済みの場合には以下のようにファイルの入手と実行を行います．[アンサンブルカルマンフィルタ](https://github.com/DAE-Code/NS2D_EnKF)および[4次元変分法](https://github.com/DAE-Code/NS2D_4DVar)のプログラムは事前にダウンロードとコンパイルを済ませてください．以下では`tree -d`コマンドで作業ディレクトリの構造を確認しています（この通りになっていれば`tree`コマンドの実行は必要ありません）．
 ```
-> git clone https://github.com/DAE-Code/NS2D_DataAssimilation
-> tree -d
+$ git clone https://github.com/DAE-Code/NS2D_DataAssimilation
+$ tree -d
 .
 ├── NS2D_4DVar
 │   └── src
@@ -32,8 +32,8 @@
 │       └── case_baseline
 └── NS2D_EnKF
     └── src
-> cd NS2D_DataAssimilation
-> ./runALL.sh
+$ cd NS2D_DataAssimilation
+$ ./runALL.sh
 ```
 `./runALL.sh`によりデータ同化計算の実行および計算結果のグラフ化が自動で行われ，`./figures`ディレクトリに集められます．Pythonを使ったグラフ作成に関しては実行環境に依存する部分が多いので途中で止まってしまった場合には実行環境を確認してください．全て実行すると1.7GB程度のディスク容量を消費します．計算自体にも時間がかかりますのでご注意ください．
 
@@ -43,12 +43,12 @@
 
 計算結果のグラフ化にはPythonを用います．Python 3.xがインストールされていない場合には以下でインストールします．
 ```
-> sudo apt install python3 python3-pip -y
+$ sudo apt install python3 python3-pip -y
 ```
 
 結果の可視化に使用するライブラリもインストールしておきます．
 ```
-> sudo pip3 install numpy
-> sudo pip3 install scipy
-> sudo pip3 install matplotlib
+$ sudo pip3 install numpy
+$ sudo pip3 install scipy
+$ sudo pip3 install matplotlib
 ```
