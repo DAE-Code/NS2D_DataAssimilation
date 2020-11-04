@@ -22,7 +22,7 @@ def plot_uvel(infile,outfile):
 def plot_rmse(infile,outfile):
     a = np.loadtxt(infile)
     plt.figure() 
-    plt.plot(a.T[0], a.T[1], color = "blue", linestyle = "-",  label="Noise ens 50")
+    plt.plot(a.T[0], a.T[1], color = "blue", linestyle = "--", label="Noise ens 50")
     plt.plot(a.T[0], a.T[2], color = "green",linestyle = "--", label="Vortex ens 20")
     plt.plot(a.T[0], a.T[3], color = "red",  linestyle = "--", label="Vortex ens 50")
     plt.xlim(left=0, right=400)
