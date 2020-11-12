@@ -4,8 +4,10 @@ Command \'git\' not found, but can be installed with:
 
 sudo apt install git
 
-pc:~/work$ 
+pc:~/work$
+
 pc:~/work$ sudo apt install git
+
 Reading package lists... Done
 Building dependency tree       
 Reading state information... Done
