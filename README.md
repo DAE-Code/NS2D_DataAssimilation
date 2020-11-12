@@ -41,7 +41,7 @@ $ ./runALL.sh
 
 プログラムのコンパイルにはFortranコンパイラおよびmakeを使用します．Redhat系Linux（CentOSなど）の場合には，`sudo yum install gfortran`，Debian系の場合（Ubuntuなど）には`sudo apt install gfortran`のようにしてFortranコンパイラgfortranをインストールすることができます．makeが入っていない場合にも同様にインストールしてください．
 
-計算結果のグラフ化にはPythonを用います．Python 3.xがインストールされていない場合には以下でインストールします．
+計算結果のグラフ化にはPythonを用います．Python 3.xがインストールされていない場合には以下でインストールします（Ubuntuの場合）．
 ```
 $ sudo apt install python3 python3-pip -y
 ```
@@ -52,3 +52,5 @@ $ sudo pip3 install numpy
 $ sudo pip3 install scipy
 $ sudo pip3 install matplotlib
 ```
+
+例えば，ほぼ素のUbuntu 20.04.1 LTSで本プログラムを実行するまでの道のりは[こちら]のようになります．足りないものがあれば指示に従いその都度インストールする形です．
