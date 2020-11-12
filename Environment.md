@@ -1,4 +1,4 @@
-pc:~/work$ git clone https://github.com/DAE-Code/NS2D_EnKF
+user@pc:~/work$ git clone https://github.com/DAE-Code/NS2D_EnKF
 
 Command 'git' not found, but can be installed with:
 
@@ -75,7 +75,7 @@ sudo apt install make-guile  # version 4.2.1-1.2
 
 pc:~/work/NS2D_4DVar/src$
 pc:~/work/NS2D_4DVar/src$ sudo apt install make 
-[sudo] password for ***: 
+[sudo] password for user: 
 Reading package lists... Done
 Building dependency tree       
 Reading state information... Done
