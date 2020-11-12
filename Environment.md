@@ -1,3 +1,5 @@
+/*
+
 user@pc:~/work$ git clone https://github.com/DAE-Code/NS2D_EnKF
 
 Command 'git' not found, but can be installed with:
@@ -574,18 +576,4 @@ Successfully installed certifi-2020.11.8 cycler-0.10.0 kiwisolver-1.3.1 matplotl
 pc:~/work/NS2D_DataAssimilation$ 
 **pc:~/work/NS2D_DataAssimilation$ ./runALL.sh**
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+*/
