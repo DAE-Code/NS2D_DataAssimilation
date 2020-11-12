@@ -9,25 +9,25 @@ sudo apt install git
 Reading package lists... Done  
 Building dependency tree  
 Reading state information... Done  
-The following packages were automatically installed and are no longer required:
-  libfprint-2-tod1 linux-headers-5.4.0-42 linux-headers-5.4.0-42-generic linux-image-5.4.0-42-generic linux-modules-5.4.0-42-generic
-  linux-modules-extra-5.4.0-42-generic
-Use 'sudo apt autoremove' to remove them.
-The following additional packages will be installed:
-  git-man liberror-perl
-Suggested packages:
-  git-daemon-run | git-daemon-sysvinit git-doc git-el git-email git-gui gitk gitweb git-cvs git-mediawiki git-svn
-The following NEW packages will be installed:
-  git git-man liberror-perl
-0 upgraded, 3 newly installed, 0 to remove and 0 not upgraded.
-Need to get 5,464 kB of archives.
-After this operation, 38.4 MB of additional disk space will be used.
-Do you want to continue? [Y/n] y
-Get:1 http://jp.archive.ubuntu.com/ubuntu focal/main amd64 liberror-perl all 0.17029-1 [26.5 kB]
-Get:2 http://jp.archive.ubuntu.com/ubuntu focal/main amd64 git-man all 1:2.25.1-1ubuntu3 [884 kB]
-Get:3 http://jp.archive.ubuntu.com/ubuntu focal/main amd64 git amd64 1:2.25.1-1ubuntu3 [4,554 kB]
-Fetched 5,464 kB in 1s (9,971 kB/s)
-Selecting previously unselected package liberror-perl.
+The following packages were automatically installed and are no longer required:  
+  libfprint-2-tod1 linux-headers-5.4.0-42 linux-headers-5.4.0-42-generic linux-image-5.4.0-42-generic linux-modules-5.4.0-42-generic  
+  linux-modules-extra-5.4.0-42-generic  
+Use 'sudo apt autoremove' to remove them.  
+The following additional packages will be installed:  
+  git-man liberror-perl  
+Suggested packages:  
+  git-daemon-run | git-daemon-sysvinit git-doc git-el git-email git-gui gitk gitweb git-cvs git-mediawiki git-svn  
+The following NEW packages will be installed:  
+  git git-man liberror-perl  
+0 upgraded, 3 newly installed, 0 to remove and 0 not upgraded.  
+Need to get 5,464 kB of archives.  
+After this operation, 38.4 MB of additional disk space will be used.  
+Do you want to continue? [Y/n] y  
+Get:1 http://jp.archive.ubuntu.com/ubuntu focal/main amd64 liberror-perl all 0.17029-1 [26.5 kB]  
+Get:2 http://jp.archive.ubuntu.com/ubuntu focal/main amd64 git-man all 1:2.25.1-1ubuntu3 [884 kB]  
+Get:3 http://jp.archive.ubuntu.com/ubuntu focal/main amd64 git amd64 1:2.25.1-1ubuntu3 [4,554 kB]  
+Fetched 5,464 kB in 1s (9,971 kB/s)  
+Selecting previously unselected package liberror-perl.  
 (Reading database ... 216412 files and directories currently installed.)
 Preparing to unpack .../liberror-perl_0.17029-1_all.deb ...
 Unpacking liberror-perl (0.17029-1) ...
