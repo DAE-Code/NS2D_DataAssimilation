@@ -1,8 +1,6 @@
-\*
-
 user@pc:~/work$ git clone https://github.com/DAE-Code/NS2D_EnKF
 
-Command 'git' not found, but can be installed with:
+Command \'git\' not found, but can be installed with:
 
 sudo apt install git
 
