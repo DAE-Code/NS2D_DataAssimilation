@@ -4,11 +4,11 @@ Command \'git\' not found, but can be installed with:
 
 sudo apt install git
 
-**pc:~/work$**
-**pc:~/work$ sudo apt install git**
-Reading package lists... Done
-Building dependency tree       
-Reading state information... Done
+**pc:~/work$**  
+**pc:~/work$ sudo apt install git**  
+Reading package lists... Done  
+Building dependency tree  
+Reading state information... Done  
 The following packages were automatically installed and are no longer required:
   libfprint-2-tod1 linux-headers-5.4.0-42 linux-headers-5.4.0-42-generic linux-image-5.4.0-42-generic linux-modules-5.4.0-42-generic
   linux-modules-extra-5.4.0-42-generic
