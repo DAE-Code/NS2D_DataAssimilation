@@ -73,9 +73,8 @@ Command 'make' not found, but can be installed with:
 sudo apt install make        # version 4.2.1-1.2, or
 sudo apt install make-guile  # version 4.2.1-1.2
 
-pc:~/work/NS2D_4DVar/src$
-pc:~/work/NS2D_4DVar/src$ sudo apt install make 
-[sudo] password for user: 
+**pc:~/work/NS2D_4DVar/src$**  
+**pc:~/work/NS2D_4DVar/src$ sudo apt install make**  
 Reading package lists... Done
 Building dependency tree       
 Reading state information... Done
@@ -99,14 +98,14 @@ Unpacking make (4.2.1-1.2) ...
 Setting up make (4.2.1-1.2) ...
 Processing triggers for man-db (2.9.1-1) ...
 
-pc:~/work/NS2D_4DVar/src$
-pc:~/work/NS2D_4DVar/src$ make
-gfortran -c -O3 -cpp -fno-range-check  -c -o mod_variables.o mod_variables.f90
-make: gfortran: Command not found
-make: *** [makefile:37: mod_variables.o] Error 127
+**pc:~/work/NS2D_4DVar/src$**  
+**pc:~/work/NS2D_4DVar/src$ make**  
+gfortran -c -O3 -cpp -fno-range-check  -c -o mod_variables.o mod_variables.f90  
+make: gfortran: Command not found  
+make: *** [makefile:37: mod_variables.o] Error 127  
 
-pc:~/work/NS2D_4DVar/src$
-pc:~/work/NS2D_4DVar/src$ sudo apt install gfortran
+**pc:~/work/NS2D_4DVar/src$**  
+**pc:~/work/NS2D_4DVar/src$ sudo apt install gfortran**  
 Reading package lists... Done
 Building dependency tree       
 Reading state information... Done
@@ -259,8 +258,8 @@ update-alternatives: using /usr/bin/gfortran to provide /usr/bin/f95 (f95) in au
 update-alternatives: using /usr/bin/gfortran to provide /usr/bin/f77 (f77) in auto mode
 Processing triggers for man-db (2.9.1-1) ...
 Processing triggers for libc-bin (2.31-0ubuntu9.1) ...##########################################################################################..] 
-pc:~/work/NS2D_4DVar/src$ 
-pc:~/work/NS2D_EnKF/src$ make
+**pc:~/work/NS2D_4DVar/src$**  
+**pc:~/work/NS2D_EnKF/src$ make**  
 gfortran -c -O3 -cpp -fno-range-check  -c -o mod_variables.o mod_variables.f90
 gfortran -c -O3 -cpp -fno-range-check  -c -o m_random3.o m_random3.f90
 gfortran -c -O3 -cpp -fno-range-check  -c -o m_ranmean3.o m_ranmean3.f90
@@ -397,8 +396,8 @@ pythag.f                              100%[=====================================
 
 gfortran -c -O3 -cpp -fno-range-check  -c -o pythag.o pythag.f
 gfortran  -o ./enkf  mod_variables.o m_random3.o m_ranmean3.o m_ranvar3.o sub_kfilter.o sub_measure.o sub_utils.o sub_bc_outer.o sub_bc_wall.o sub_hsmac.o sub_initial.o sub_plot3d.o sub_rhs3rd.o NS2D_EnKF.o svd.o pythag.o 
-pc:~/work/NS2D_EnKF/src$ 
-pc:~/work/NS2D_DataAssimilation$ sudo apt install python3 python3-pip -y
+**pc:~/work/NS2D_EnKF/src$**  
+**pc:~/work/NS2D_DataAssimilation$ sudo apt install python3 python3-pip -y**  
 Reading package lists... Done
 Building dependency tree       
 Reading state information... Done
@@ -532,21 +531,21 @@ Setting up python3.8-dev (3.8.5-1~20.04) ...
 Setting up python3-dev (3.8.2-0ubuntu2) ...
 Processing triggers for man-db (2.9.1-1) ...
 Processing triggers for libc-bin (2.31-0ubuntu9.1) ...
-pc:~/work/NS2D_DataAssimilation$ 
-pc:~/work/NS2D_DataAssimilation$ sudo pip3 install numpy
+**user@pc:~/work/NS2D_DataAssimilation$**  
+**user@pc:~/work/NS2D_DataAssimilation$ sudo pip3 install numpy**  
 Collecting numpy
   Downloading numpy-1.19.4-cp38-cp38-manylinux2010_x86_64.whl (14.5 MB)
      |????????????????????????????????| 14.5 MB 17.7 MB/s 
 Installing collected packages: numpy
 Successfully installed numpy-1.19.4
-tm@tm-T7610:~/work/NS2D_DataAssimilation$ sudo pip3 install scipy
+**user@pc:~/work/NS2D_DataAssimilation$ sudo pip3 install scipy**  
 Collecting scipy
   Downloading scipy-1.5.4-cp38-cp38-manylinux1_x86_64.whl (25.8 MB)
      |????????????????????????????????| 25.8 MB 10.7 MB/s 
 Requirement already satisfied: numpy>=1.14.5 in /usr/local/lib/python3.8/dist-packages (from scipy) (1.19.4)
 Installing collected packages: scipy
 Successfully installed scipy-1.5.4
-tm@tm-T7610:~/work/NS2D_DataAssimilation$ sudo pip3 install matplotlib
+**user@pc:~/work/NS2D_DataAssimilation$ sudo pip3 install matplotlib**  
 Collecting matplotlib
   Downloading matplotlib-3.3.2-cp38-cp38-manylinux1_x86_64.whl (11.6 MB)
      |????????????????????????????????| 11.6 MB 1.1 MB/s 
