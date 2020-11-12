@@ -53,4 +53,4 @@ $ sudo pip3 install scipy
 $ sudo pip3 install matplotlib
 ```
 
-例えば，ほぼ素のUbuntu 20.04.1 LTSで本プログラムを実行するまでの道のりは[こちら]のようになります．足りないものがあれば指示に従いその都度インストールする形です．
+例えば，ほぼ素のUbuntu 20.04.1 LTSで本プログラムを実行するまでの道のりは[こちら](https://github.com/DAE-Code/NS2D_DataAssimilation/Environment.md)のようになります．足りないものがあれば指示に従いその都度インストールする形です．
