@@ -551,27 +551,25 @@ Collecting matplotlib
   Downloading matplotlib-3.3.2-cp38-cp38-manylinux1_x86_64.whl (11.6 MB)
      |????????????????????????????????| 11.6 MB 1.1 MB/s 
 Requirement already satisfied: pillow>=6.2.0 in /usr/lib/python3/dist-packages (from matplotlib) (7.0.0)
-Collecting kiwisolver>=1.0.1
-  Downloading kiwisolver-1.3.1-cp38-cp38-manylinux1_x86_64.whl (1.2 MB)
-     |????????????????????????????????| 1.2 MB 11.2 MB/s 
-Requirement already satisfied: python-dateutil>=2.1 in /usr/lib/python3/dist-packages (from matplotlib) (2.7.3)
-Collecting cycler>=0.10
-  Downloading cycler-0.10.0-py2.py3-none-any.whl (6.5 kB)
-Requirement already satisfied: numpy>=1.15 in /usr/local/lib/python3.8/dist-packages (from matplotlib) (1.19.4)
-Collecting certifi>=2020.06.20
-  Downloading certifi-2020.11.8-py2.py3-none-any.whl (155 kB)
-     |????????????????????????????????| 155 kB 11.3 MB/s 
-Collecting pyparsing!=2.0.4,!=2.1.2,!=2.1.6,>=2.0.3
-  Downloading pyparsing-2.4.7-py2.py3-none-any.whl (67 kB)
-     |????????????????????????????????| 67 kB 5.0 MB/s 
-Requirement already satisfied: six in /usr/lib/python3/dist-packages (from cycler>=0.10->matplotlib) (1.14.0)
-Installing collected packages: kiwisolver, cycler, certifi, pyparsing, matplotlib
-  Attempting uninstall: certifi
-    Found existing installation: certifi 2019.11.28
-    Not uninstalling certifi at /usr/lib/python3/dist-packages, outside environment /usr
-    Can't uninstall 'certifi'. No files were found to uninstall.
-Successfully installed certifi-2020.11.8 cycler-0.10.0 kiwisolver-1.3.1 matplotlib-3.3.2 pyparsing-2.4.7
-pc:~/work/NS2D_DataAssimilation$ 
+Collecting kiwisolver>=1.0.1  
+  Downloading kiwisolver-1.3.1-cp38-cp38-manylinux1_x86_64.whl (1.2 MB)  
+     |????????????????????????????????| 1.2 MB 11.2 MB/s  
+Requirement already satisfied: python-dateutil>=2.1 in /usr/lib/python3/dist-packages (from matplotlib) (2.7.3)  
+Collecting cycler>=0.10  
+  Downloading cycler-0.10.0-py2.py3-none-any.whl (6.5 kB)  
+Requirement already satisfied: numpy>=1.15 in /usr/local/lib/python3.8/dist-packages (from matplotlib) (1.19.4)  
+Collecting certifi>=2020.06.20  
+  Downloading certifi-2020.11.8-py2.py3-none-any.whl (155 kB)  
+     |????????????????????????????????| 155 kB 11.3 MB/s   
+Collecting pyparsing!=2.0.4,!=2.1.2,!=2.1.6,>=2.0.3  
+  Downloading pyparsing-2.4.7-py2.py3-none-any.whl (67 kB)  
+     |????????????????????????????????| 67 kB 5.0 MB/s  
+Requirement already satisfied: six in /usr/lib/python3/dist-packages (from cycler>=0.10->matplotlib) (1.14.0)  
+Installing collected packages: kiwisolver, cycler, certifi, pyparsing, matplotlib  
+  Attempting uninstall: certifi  
+    Found existing installation: certifi 2019.11.28  
+    Not uninstalling certifi at /usr/lib/python3/dist-packages, outside environment /usr  
+    Can't uninstall 'certifi'. No files were found to uninstall.  
+Successfully installed certifi-2020.11.8 cycler-0.10.0 kiwisolver-1.3.1 matplotlib-3.3.2 pyparsing-2.4.7  
+**pc:~/work/NS2D_DataAssimilation$**  
 **pc:~/work/NS2D_DataAssimilation$ ./runALL.sh**
-
-\*
