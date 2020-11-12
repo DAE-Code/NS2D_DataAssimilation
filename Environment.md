@@ -395,7 +395,7 @@ pythag.f                              100%[=====================================
 2020-11-10 14:46:39 (16.7 MB/s) - ‘pythag.f’ saved [503/503]
 
 gfortran -c -O3 -cpp -fno-range-check  -c -o pythag.o pythag.f
-gfortran  -o ./enkf  mod_variables.o m_random3.o m_ranmean3.o m_ranvar3.o sub_kfilter.o sub_measure.o sub_utils.o sub_bc_outer.o sub_bc_wall.o sub_hsmac.o sub_initial.o sub_plot3d.o sub_rhs3rd.o NS2D_EnKF.o svd.o pythag.o 
+gfortran  -o ./enkf  mod_variables.o m_random3.o m_ranmean3.o m_ranvar3.o sub_kfilter.o sub_measure.o sub_utils.o sub_bc_outer.o sub_bc_wall.o sub_hsmac.o sub_initial.o sub_plot3d.o sub_rhs3rd.o NS2D_EnKF.o svd.o pythag.o  
 **pc:~/work/NS2D_EnKF/src$**  
 **pc:~/work/NS2D_DataAssimilation$ sudo apt install python3 python3-pip -y**  
 Reading package lists... Done
@@ -530,21 +530,21 @@ Setting up python3-pip (20.0.2-5ubuntu1.1) ...
 Setting up python3.8-dev (3.8.5-1~20.04) ...
 Setting up python3-dev (3.8.2-0ubuntu2) ...
 Processing triggers for man-db (2.9.1-1) ...
-Processing triggers for libc-bin (2.31-0ubuntu9.1) ...
+Processing triggers for libc-bin (2.31-0ubuntu9.1) ...  
 **user@pc:~/work/NS2D_DataAssimilation$**  
 **user@pc:~/work/NS2D_DataAssimilation$ sudo pip3 install numpy**  
 Collecting numpy
   Downloading numpy-1.19.4-cp38-cp38-manylinux2010_x86_64.whl (14.5 MB)
      |????????????????????????????????| 14.5 MB 17.7 MB/s 
 Installing collected packages: numpy
-Successfully installed numpy-1.19.4
+Successfully installed numpy-1.19.4  
 **user@pc:~/work/NS2D_DataAssimilation$ sudo pip3 install scipy**  
 Collecting scipy
   Downloading scipy-1.5.4-cp38-cp38-manylinux1_x86_64.whl (25.8 MB)
      |????????????????????????????????| 25.8 MB 10.7 MB/s 
 Requirement already satisfied: numpy>=1.14.5 in /usr/local/lib/python3.8/dist-packages (from scipy) (1.19.4)
 Installing collected packages: scipy
-Successfully installed scipy-1.5.4
+Successfully installed scipy-1.5.4  
 **user@pc:~/work/NS2D_DataAssimilation$ sudo pip3 install matplotlib**  
 Collecting matplotlib
   Downloading matplotlib-3.3.2-cp38-cp38-manylinux1_x86_64.whl (11.6 MB)
