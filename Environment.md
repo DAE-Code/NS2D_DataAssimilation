@@ -288,7 +288,7 @@ Saving to: ‘svd.f’
 
 svd.f                                 100%[=======================================================================>]   9.76K  --.-KB/s    in 0s        
 
-2020-11-10 14:46:39 (58.0 MB/s) - ‘svd.f’ saved [9990/9990]  
+2020-11-10 14:46:39 (58.0 MB/s) - ‘svd.f’ saved \[9990/9990\]  
 
 gfortran -c -O3 -cpp -fno-range-check  -c -o svd.o svd.f  
 svd.f:77:72:  
@@ -394,7 +394,7 @@ HTTP request sent, awaiting response... 200 OK
 Length: 503 [text/plain]  
 Saving to: ‘pythag.f’  
 
-pythag.f                              100%[=======================================================================>]     503  --.-KB/s    in 0s      
+pythag.f                              100%\[=======================================================================>\]     503  --.-KB/s    in 0s      
 
 2020-11-10 14:46:39 (16.7 MB/s) - ‘pythag.f’ saved [503/503]  
 
@@ -454,7 +454,7 @@ Selecting previously unselected package g++-9.
 Preparing to unpack .../01-g++-9_9.3.0-17ubuntu1~20.04_amd64.deb ...  
 Unpacking g++-9 (9.3.0-17ubuntu1~20.04) ...  
 Selecting previously unselected package g++.  
-Preparing to unpack .../02-g++_4%3a9.3.0-1ubuntu2_amd64.deb ...  
+Preparing to unpack \.../02-g++_4%3a9.3.0-1ubuntu2_amd64.deb \...  
 Unpacking g++ (4:9.3.0-1ubuntu2) ...  
 Selecting previously unselected package dpkg-dev.  
 Preparing to unpack .../03-dpkg-dev_1.19.7ubuntu3_all.deb ...  
