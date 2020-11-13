@@ -128,38 +128,38 @@ The following NEW packages will be installed:
 Need to get 29.6 MB of archives.  
 After this operation, 129 MB of additional disk space will be used.  
 Do you want to continue? \[Y/n]\ ***y***    
-Get:1 http://jp.archive.ubuntu.com/ubuntu focal/main amd64 binutils-common amd64 2.34-6ubuntu1 [207 kB]  
-Get:2 http://jp.archive.ubuntu.com/ubuntu focal/main amd64 libbinutils amd64 2.34-6ubuntu1 [474 kB]  
-Get:3 http://jp.archive.ubuntu.com/ubuntu focal/main amd64 libctf-nobfd0 amd64 2.34-6ubuntu1 [47.0 kB]  
-Get:4 http://jp.archive.ubuntu.com/ubuntu focal/main amd64 libctf0 amd64 2.34-6ubuntu1 [46.6 kB]  
-Get:5 http://jp.archive.ubuntu.com/ubuntu focal/main amd64 binutils-x86-64-linux-gnu amd64 2.34-6ubuntu1 [1,614 kB]  
-Get:6 http://jp.archive.ubuntu.com/ubuntu focal/main amd64 binutils amd64 2.34-6ubuntu1 [3,376 B]  
-Get:7 http://jp.archive.ubuntu.com/ubuntu focal-updates/main amd64 libitm1 amd64 10.2.0-5ubuntu1~20.04 [26.4 kB]  
-Get:8 http://jp.archive.ubuntu.com/ubuntu focal-updates/main amd64 libatomic1 amd64 10.2.0-5ubuntu1~20.04 [9,300 B]  
-Get:9 http://jp.archive.ubuntu.com/ubuntu focal-updates/main amd64 libasan5 amd64 9.3.0-17ubuntu1~20.04 [394 kB]  
-Get:10 http://jp.archive.ubuntu.com/ubuntu focal-updates/main amd64 liblsan0 amd64 10.2.0-5ubuntu1~20.04 [144 kB]  
-Get:11 http://jp.archive.ubuntu.com/ubuntu focal-updates/main amd64 libtsan0 amd64 10.2.0-5ubuntu1~20.04 [320 kB]  
-Get:12 http://jp.archive.ubuntu.com/ubuntu focal-updates/main amd64 libubsan1 amd64 10.2.0-5ubuntu1~20.04 [136 kB]  
-Get:13 http://jp.archive.ubuntu.com/ubuntu focal-updates/main amd64 libquadmath0 amd64 10.2.0-5ubuntu1~20.04 [146 kB]  
-Get:14 http://jp.archive.ubuntu.com/ubuntu focal-updates/main amd64 libgcc-9-dev amd64 9.3.0-17ubuntu1~20.04 [2,360 kB]  
-Get:15 http://jp.archive.ubuntu.com/ubuntu focal-updates/main amd64 gcc-9 amd64 9.3.0-17ubuntu1~20.04 [8,241 kB]  
-Get:16 http://jp.archive.ubuntu.com/ubuntu focal/main amd64 gcc amd64 4:9.3.0-1ubuntu2 [5,208 B]  
-Get:17 http://jp.archive.ubuntu.com/ubuntu focal-updates/main amd64 libgfortran5 amd64 10.2.0-5ubuntu1~20.04 [736 kB]  
-Get:18 http://jp.archive.ubuntu.com/ubuntu focal-updates/main amd64 libgfortran-9-dev amd64 9.3.0-17ubuntu1~20.04 [684 kB]  
-Get:19 http://jp.archive.ubuntu.com/ubuntu focal-updates/main amd64 libc-dev-bin amd64 2.31-0ubuntu9.1 [71.7 kB]  
-Get:20 http://jp.archive.ubuntu.com/ubuntu focal-updates/main amd64 linux-libc-dev amd64 5.4.0-52.57 [1,138 kB]  
-Get:21 http://jp.archive.ubuntu.com/ubuntu focal/main amd64 libcrypt-dev amd64 1:4.4.10-10ubuntu4 [104 kB]  
-Get:22 http://jp.archive.ubuntu.com/ubuntu focal-updates/main amd64 libc6-dev amd64 2.31-0ubuntu9.1 [2,519 kB]  
-Get:23 http://jp.archive.ubuntu.com/ubuntu focal-updates/main amd64 gfortran-9 amd64 9.3.0-17ubuntu1~20.04 [7,921 kB]  
-Get:24 http://jp.archive.ubuntu.com/ubuntu focal/main amd64 gfortran amd64 4:9.3.0-1ubuntu2 [1,372 B]  
-Get:25 http://jp.archive.ubuntu.com/ubuntu focal/main amd64 manpages-dev all 5.05-1 [2,266 kB]  
+Get:1 http://jp.archive.ubuntu.com/ubuntu focal/main amd64 binutils-common amd64 2.34-6ubuntu1 \[207 kB\]  
+Get:2 http://jp.archive.ubuntu.com/ubuntu focal/main amd64 libbinutils amd64 2.34-6ubuntu1 \[474 kB\]  
+Get:3 http://jp.archive.ubuntu.com/ubuntu focal/main amd64 libctf-nobfd0 amd64 2.34-6ubuntu1 \[47.0 kB\]  
+Get:4 http://jp.archive.ubuntu.com/ubuntu focal/main amd64 libctf0 amd64 2.34-6ubuntu1 \[46.6 kB\]  
+Get:5 http://jp.archive.ubuntu.com/ubuntu focal/main amd64 binutils-x86-64-linux-gnu amd64 2.34-6ubuntu1 \[1,614 kB\]  
+Get:6 http://jp.archive.ubuntu.com/ubuntu focal/main amd64 binutils amd64 2.34-6ubuntu1 \[3,376 B\]  
+Get:7 http://jp.archive.ubuntu.com/ubuntu focal-updates/main amd64 libitm1 amd64 10.2.0-5ubuntu1~20.04 \[26.4 kB\]  
+Get:8 http://jp.archive.ubuntu.com/ubuntu focal-updates/main amd64 libatomic1 amd64 10.2.0-5ubuntu1~20.04 \[9,300 B\]  
+Get:9 http://jp.archive.ubuntu.com/ubuntu focal-updates/main amd64 libasan5 amd64 9.3.0-17ubuntu1~20.04 \[394 kB]  
+Get:10 http://jp.archive.ubuntu.com/ubuntu focal-updates/main amd64 liblsan0 amd64 10.2.0-5ubuntu1~20.04 \[144 kB]  
+Get:11 http://jp.archive.ubuntu.com/ubuntu focal-updates/main amd64 libtsan0 amd64 10.2.0-5ubuntu1~20.04 \[320 kB]  
+Get:12 http://jp.archive.ubuntu.com/ubuntu focal-updates/main amd64 libubsan1 amd64 10.2.0-5ubuntu1~20.04 \[136 kB]  
+Get:13 http://jp.archive.ubuntu.com/ubuntu focal-updates/main amd64 libquadmath0 amd64 10.2.0-5ubuntu1~20.04 \[146 kB]  
+Get:14 http://jp.archive.ubuntu.com/ubuntu focal-updates/main amd64 libgcc-9-dev amd64 9.3.0-17ubuntu1~20.04 \[2,360 kB]  
+Get:15 http://jp.archive.ubuntu.com/ubuntu focal-updates/main amd64 gcc-9 amd64 9.3.0-17ubuntu1~20.04 \[8,241 kB]  
+Get:16 http://jp.archive.ubuntu.com/ubuntu focal/main amd64 gcc amd64 4:9.3.0-1ubuntu2 \[5,208 B]  
+Get:17 http://jp.archive.ubuntu.com/ubuntu focal-updates/main amd64 libgfortran5 amd64 10.2.0-5ubuntu1~20.04 \[736 kB]  
+Get:18 http://jp.archive.ubuntu.com/ubuntu focal-updates/main amd64 libgfortran-9-dev amd64 9.3.0-17ubuntu1~20.04 \[684 kB]  
+Get:19 http://jp.archive.ubuntu.com/ubuntu focal-updates/main amd64 libc-dev-bin amd64 2.31-0ubuntu9.1 \[71.7 kB]  
+Get:20 http://jp.archive.ubuntu.com/ubuntu focal-updates/main amd64 linux-libc-dev amd64 5.4.0-52.57 \[1,138 kB]  
+Get:21 http://jp.archive.ubuntu.com/ubuntu focal/main amd64 libcrypt-dev amd64 1:4.4.10-10ubuntu4 \[104 kB]  
+Get:22 http://jp.archive.ubuntu.com/ubuntu focal-updates/main amd64 libc6-dev amd64 2.31-0ubuntu9.1 \[2,519 kB]  
+Get:23 http://jp.archive.ubuntu.com/ubuntu focal-updates/main amd64 gfortran-9 amd64 9.3.0-17ubuntu1~20.04 \[7,921 kB]  
+Get:24 http://jp.archive.ubuntu.com/ubuntu focal/main amd64 gfortran amd64 4:9.3.0-1ubuntu2 \[1,372 B]  
+Get:25 http://jp.archive.ubuntu.com/ubuntu focal/main amd64 manpages-dev all 5.05-1 \[2,266 kB]  
 Fetched 29.6 MB in 3s (9,234 kB/s)       
 Selecting previously unselected package binutils-common:amd64.  
-(Reading database ... 217363 files and directories currently installed.)  
-Preparing to unpack .../00-binutils-common_2.34-6ubuntu1_amd64.deb ...  
+(Reading database \... 217363 files and directories currently installed.)  
+Preparing to unpack \.../00-binutils-common_2.34-6ubuntu1_amd64.deb ...  
 Unpacking binutils-common:amd64 (2.34-6ubuntu1) ...  
 Selecting previously unselected package libbinutils:amd64.  
-Preparing to unpack .../01-libbinutils_2.34-6ubuntu1_amd64.deb ...  
+Preparing to unpack \.../01-libbinutils_2.34-6ubuntu1_amd64.deb ...  
 Unpacking libbinutils:amd64 (2.34-6ubuntu1) ...  
 Selecting previously unselected package libctf-nobfd0:amd64.  
 Preparing to unpack .../02-libctf-nobfd0_2.34-6ubuntu1_amd64.deb ...  
