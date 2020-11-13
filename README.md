@@ -6,7 +6,7 @@
 
 # Linux環境での実行方法
 
-環境が構築済みの場合には以下のようにファイルの入手と実行を行います．[アンサンブルカルマンフィルタ](https://github.com/DAE-Code/NS2D_EnKF)および[4次元変分法](https://github.com/DAE-Code/NS2D_4DVar)のプログラムは事前にダウンロードとコンパイルを済ませてください．以下では`tree -d`コマンドで作業ディレクトリの構造を確認しています（この通りになっていれば`tree`コマンドの実行は必要ありません）．
+環境が構築済みの場合には以下のようにファイルの入手と実行を行います．[アンサンブルカルマンフィルタ](https://github.com/DAE-Code/NS2D_EnKF)および[4次元変分法](https://github.com/DAE-Code/NS2D_4DVar)のプログラムは事前にダウンロードとコンパイルを済ませてください．以下のような作業ディレクトリの構造になります．
 ```
 $ git clone https://github.com/DAE-Code/NS2D_DataAssimilation
 $ tree -d
