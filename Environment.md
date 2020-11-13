@@ -22,7 +22,7 @@ The following NEW packages will be installed:
 0 upgraded, 3 newly installed, 0 to remove and 0 not upgraded.  
 Need to get 5,464 kB of archives.  
 After this operation, 38.4 MB of additional disk space will be used.  
-Do you want to continue? \[Y/n\] y  
+Do you want to continue? \[Y/n\] ***y***  
 Get:1 http://jp.archive.ubuntu.com/ubuntu focal/main amd64 liberror-perl all 0.17029-1 \[26.5 kB\]  
 Get:2 http://jp.archive.ubuntu.com/ubuntu focal/main amd64 git-man all 1:2.25.1-1ubuntu3 \[884 kB\]  
 Get:3 http://jp.archive.ubuntu.com/ubuntu focal/main amd64 git amd64 1:2.25.1-1ubuntu3 \[4,554 kB\]  
@@ -43,39 +43,41 @@ Setting up git (1:2.25.1-1ubuntu3) \...
 Processing triggers for man-db (2.9.1-1) \...  
 ***user@pc:~/work$***   
 ***user@pc:~/work$ git clone https://github.com/DAE-Code/NS2D_DataAssimilation***  
-Cloning into 'NS2D_DataAssimilation'...
-remote: Enumerating objects: 116, done.
-remote: Counting objects: 100% (116/116), done.
-remote: Compressing objects: 100% (81/81), done.
-remote: Total 116 (delta 68), reused 61 (delta 35), pack-reused 0
-Receiving objects: 100% (116/116), 290.55 KiB | 548.00 KiB/s, done.
-Resolving deltas: 100% (68/68), done.
-tm@tm-T7610:~/work$ git clone https://github.com/DAE-Code/NS2D_4DVar
-Cloning into 'NS2D_4DVar'...
-remote: Enumerating objects: 61, done.
-remote: Counting objects: 100% (61/61), done.
-remote: Compressing objects: 100% (55/55), done.
-remote: Total 61 (delta 27), reused 27 (delta 6), pack-reused 0
-Unpacking objects: 100% (61/61), 299.97 KiB | 407.00 KiB/s, done.
-tm@tm-T7610:~/work$ git clone https://github.com/DAE-Code/NS2D_EnKF
+Cloning into 'NS2D_DataAssimilation'\...  
+remote: Enumerating objects: 116, done.  
+remote: Counting objects: 100% (116/116), done.  
+remote: Compressing objects: 100% (81/81), done.  
+remote: Total 116 (delta 68), reused 61 (delta 35), pack-reused 0  
+Receiving objects: 100% (116/116), 290.55 KiB | 548.00 KiB/s, done.  
+Resolving deltas: 100% (68/68), done.  
+***user@pc:~/work$***   
+***user@pc:~/work$ git clone https://github.com/DAE-Code/NS2D_4DVar***  
+Cloning into 'NS2D_4DVar'\...  
+remote: Enumerating objects: 61, done.  
+remote: Counting objects: 100% (61/61), done.  
+remote: Compressing objects: 100% (55/55), done.  
+remote: Total 61 (delta 27), reused 27 (delta 6), pack-reused 0  
+Unpacking objects: 100% (61/61), 299.97 KiB | 407.00 KiB/s, done.  
+***user@pc:~/work$***   
+***user@pc:~/work$ git clone https://github.com/DAE-Code/NS2D_EnKF***
 Cloning into 'NS2D_EnKF'...
 remote: Enumerating objects: 88, done.
 remote: Counting objects: 100% (88/88), done.
 remote: Compressing objects: 100% (88/88), done.
 remote: Total 88 (delta 45), reused 18 (delta 0), pack-reused 0
 Unpacking objects: 100% (88/88), 301.65 KiB | 550.00 KiB/s, done.
-pc:~/work$ 
-pc:~/work$ cd NS2D_4DVar/src
-pc:~/work/NS2D_4DVar/src$ make
+***user@pc:~/work$***
+***user@pc:~/work$ cd NS2D_4DVar/src***  
+***user@pc:~/work/NS2D_4DVar/src$ make***  
 
-Command 'make' not found, but can be installed with:
+Command 'make' not found, but can be installed with:  
 
-sudo apt install make        # version 4.2.1-1.2, or
-sudo apt install make-guile  # version 4.2.1-1.2
+sudo apt install make        # version 4.2.1-1.2, or  
+sudo apt install make-guile  # version 4.2.1-1.2  
 
-**pc:~/work/NS2D_4DVar/src$**  
-**pc:~/work/NS2D_4DVar/src$ sudo apt install make**  
-Reading package lists... Done
+***user@pc:~/work/NS2D_4DVar/src$***  
+***user@pc:~/work/NS2D_4DVar/src$ sudo apt install make***  
+Reading package lists\... Done  
 Building dependency tree       
 Reading state information... Done
 The following packages were automatically installed and are no longer required:
