@@ -542,6 +542,7 @@ Collecting numpy
      |????????????????????????????????| 14.5 MB 17.7 MB/s   
 Installing collected packages: numpy  
 Successfully installed numpy-1.19.4    
+***user@pc:~/work/NS2D_DataAssimilation$***
 ***user@pc:~/work/NS2D_DataAssimilation$ sudo pip3 install scipy***  
 Collecting scipy  
   Downloading scipy-1.5.4-cp38-cp38-manylinux1_x86_64.whl (25.8 MB)  
@@ -549,6 +550,7 @@ Collecting scipy
 Requirement already satisfied: numpy>=1.14.5 in /usr/local/lib/python3.8/dist-packages (from scipy) (1.19.4)  
 Installing collected packages: scipy  
 Successfully installed scipy-1.5.4   
+***user@pc:~/work/NS2D_DataAssimilation$***
 ***user@pc:~/work/NS2D_DataAssimilation$ sudo pip3 install matplotlib***  
 Collecting matplotlib  
   Downloading matplotlib-3.3.2-cp38-cp38-manylinux1_x86_64.whl (11.6 MB)  
@@ -575,4 +577,4 @@ Installing collected packages: kiwisolver, cycler, certifi, pyparsing, matplotli
     Can't uninstall 'certifi'. No files were found to uninstall.  
 Successfully installed certifi-2020.11.8 cycler-0.10.0 kiwisolver-1.3.1 matplotlib-3.3.2 pyparsing-2.4.7  
 ***user@pc:~/work/NS2D_DataAssimilation$***  
-***user2pc:~/work/NS2D_DataAssimilation$ ./runALL.sh***  
+***user@pc:~/work/NS2D_DataAssimilation$ ./runALL.sh***  
