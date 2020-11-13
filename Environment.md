@@ -22,17 +22,17 @@ The following NEW packages will be installed:
 0 upgraded, 3 newly installed, 0 to remove and 0 not upgraded.  
 Need to get 5,464 kB of archives.  
 After this operation, 38.4 MB of additional disk space will be used.  
-Do you want to continue? [Y/n] y  
-Get:1 http://jp.archive.ubuntu.com/ubuntu focal/main amd64 liberror-perl all 0.17029-1 [26.5 kB]  
-Get:2 http://jp.archive.ubuntu.com/ubuntu focal/main amd64 git-man all 1:2.25.1-1ubuntu3 [884 kB]  
-Get:3 http://jp.archive.ubuntu.com/ubuntu focal/main amd64 git amd64 1:2.25.1-1ubuntu3 [4,554 kB]  
+Do you want to continue? \[Y/n\] y  
+Get:1 http://jp.archive.ubuntu.com/ubuntu focal/main amd64 liberror-perl all 0.17029-1 \[26.5 kB\]  
+Get:2 http://jp.archive.ubuntu.com/ubuntu focal/main amd64 git-man all 1:2.25.1-1ubuntu3 \[884 kB\]  
+Get:3 http://jp.archive.ubuntu.com/ubuntu focal/main amd64 git amd64 1:2.25.1-1ubuntu3 \[4,554 kB\]  
 Fetched 5,464 kB in 1s (9,971 kB/s)  
 Selecting previously unselected package liberror-perl.  
-(Reading database ... 216412 files and directories currently installed.)
-Preparing to unpack .../liberror-perl_0.17029-1_all.deb ...
-Unpacking liberror-perl (0.17029-1) ...
-Selecting previously unselected package git-man.
-Preparing to unpack .../git-man_1%3a2.25.1-1ubuntu3_all.deb ...
+(Reading database \... 216412 files and directories currently installed.)  
+Preparing to unpack \.../liberror-perl_0.17029-1_all.deb \...  
+Unpacking liberror-perl (0.17029-1) \...  
+Selecting previously unselected package git-man.  
+Preparing to unpack \.../git-man_1%3a2.25.1-1ubuntu3_all.deb \...  
 Unpacking git-man (1:2.25.1-1ubuntu3) ...
 Selecting previously unselected package git.
 Preparing to unpack .../git_1%3a2.25.1-1ubuntu3_amd64.deb ...
