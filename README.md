@@ -6,7 +6,7 @@
 
 # Linux環境での実行方法
 
-環境が構築済みの場合には以下のようにファイルの入手と実行を行います．[アンサンブルカルマンフィルタ](https://github.com/DAE-Code/NS2D_EnKF)および[4次元変分法](https://github.com/DAE-Code/NS2D_4DVar)のプログラムは事前にダウンロードとコンパイルを済ませてください．以下のような作業ディレクトリの構造になります．
+環境が構築済みの場合には以下のようにファイルの入手と実行を行います．[アンサンブルカルマンフィルタ](https://github.com/DAE-Code/NS2D_EnKF)および[4次元変分法](https://github.com/DAE-Code/NS2D_4DVar)のプログラムは事前にダウンロードとコンパイルを済ませてください．以下のような作業ディレクトリの構造になるようにします．
 ```
 $ git clone https://github.com/DAE-Code/NS2D_DataAssimilation
 $ tree -d
@@ -53,4 +53,4 @@ $ sudo pip3 install scipy
 $ sudo pip3 install matplotlib
 ```
 
-例えば，ほぼ素のUbuntu 20.04.1 LTSで本プログラムを実行するまでの道のりは[こちら](https://github.com/DAE-Code/NS2D_DataAssimilation/blob/master/Environment.md)のようになります．足りないパッケージがあれば指示に従いその都度インストールする形です．
+例えば，ほぼ素のUbuntu 20.04.1 LTSで本プログラムを実行するまでの道のりは[こちら](https://github.com/DAE-Code/NS2D_DataAssimilation/blob/master/Environment.md)のようになります．足りないパッケージがあれば指示に従いその都度インストールします．
