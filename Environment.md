@@ -259,10 +259,10 @@ update-alternatives: using /usr/bin/gfortran to provide /usr/bin/f95 (f95) in au
 update-alternatives: using /usr/bin/gfortran to provide /usr/bin/f77 (f77) in auto mode  
 Processing triggers for man-db (2.9.1-1) ...  
 Processing triggers for libc-bin (2.31-0ubuntu9.1) ...##########################################################################################..]   
-***pc:~/work/NS2D_4DVar/src$*** 
+***pc:~/work/NS2D_4DVar/src$***  
 ***pc:~/work/NS2D_4DVar/src$ make***  
-***pc:~/work/NS2D_4DVar/src$*** 
-***pc:~/work/NS2D_4DVar/src$ cd ../../NS2D_EnKF/src*** 
+***pc:~/work/NS2D_4DVar/src$***  
+***pc:~/work/NS2D_4DVar/src$ cd ../../NS2D_EnKF/src***  
 ***pc:~/work/NS2D_EnKF/src$ make***  
 gfortran -c -O3 -cpp -fno-range-check  -c -o mod_variables.o mod_variables.f90  
 gfortran -c -O3 -cpp -fno-range-check  -c -o m_random3.o m_random3.f90  
