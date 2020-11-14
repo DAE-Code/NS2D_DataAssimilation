@@ -59,14 +59,14 @@ remote: Compressing objects: 100% (55/55), done.
 remote: Total 61 (delta 27), reused 27 (delta 6), pack-reused 0  
 Unpacking objects: 100% (61/61), 299.97 KiB | 407.00 KiB/s, done.  
 ***user@pc:~/work$***   
-***user@pc:~/work$ git clone https://github.com/DAE-Code/NS2D_EnKF***
-Cloning into 'NS2D_EnKF'...
-remote: Enumerating objects: 88, done.
-remote: Counting objects: 100% (88/88), done.
-remote: Compressing objects: 100% (88/88), done.
-remote: Total 88 (delta 45), reused 18 (delta 0), pack-reused 0
-Unpacking objects: 100% (88/88), 301.65 KiB | 550.00 KiB/s, done.
-***user@pc:~/work$***
+***user@pc:~/work$ git clone https://github.com/DAE-Code/NS2D_EnKF***  
+Cloning into 'NS2D_EnKF'...  
+remote: Enumerating objects: 88, done.  
+remote: Counting objects: 100% (88/88), done.  
+remote: Compressing objects: 100% (88/88), done.  
+remote: Total 88 (delta 45), reused 18 (delta 0), pack-reused 0  
+Unpacking objects: 100% (88/88), 301.65 KiB | 550.00 KiB/s, done.  
+***user@pc:~/work$***  
 ***user@pc:~/work$ cd NS2D_4DVar/src***  
 ***user@pc:~/work/NS2D_4DVar/src$ make***  
 
