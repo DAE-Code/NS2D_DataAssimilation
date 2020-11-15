@@ -260,7 +260,24 @@ update-alternatives: using /usr/bin/gfortran to provide /usr/bin/f77 (f77) in au
 Processing triggers for man-db (2.9.1-1) ...  
 Processing triggers for libc-bin (2.31-0ubuntu9.1) ...##########################################################################################..]   
 ***pc:~/work/NS2D_4DVar/src$***  
-***pc:~/work/NS2D_4DVar/src$ make***  
+***pc:~/work/NS2D_4DVar/src$ make***   
+gfortran -c -O3 -cpp -fno-range-check  -c -o mod_variables.o mod_variables.f90  
+gfortran -c -O3 -cpp -fno-range-check  -c -o sub_check_foa.o sub_check_foa.f90  
+gfortran -c -O3 -cpp -fno-range-check  -c -o m_random3.o m_random3.f90  
+gfortran -c -O3 -cpp -fno-range-check  -c -o sub_4dvar.o sub_4dvar.f90  
+gfortran -c -O3 -cpp -fno-range-check  -c -o sub_measure.o sub_measure.f90  
+gfortran -c -O3 -cpp -fno-range-check  -c -o sub_plot3d.o sub_plot3d.f90  
+gfortran -c -O3 -cpp -fno-range-check  -c -o sub_bc_outer.o sub_bc_outer.f90  
+gfortran -c -O3 -cpp -fno-range-check  -c -o sub_bc_wall.o sub_bc_wall.f90  
+gfortran -c -O3 -cpp -fno-range-check  -c -o sub_hsmac_fwd.o sub_hsmac_fwd.f90  
+gfortran -c -O3 -cpp -fno-range-check  -c -o sub_hsmac_tlm.o sub_hsmac_tlm.f90  
+gfortran -c -O3 -cpp -fno-range-check  -c -o sub_hsmac_adj.o sub_hsmac_adj.f90  
+gfortran -c -O3 -cpp -fno-range-check  -c -o sub_initial.o sub_initial.f90  
+gfortran -c -O3 -cpp -fno-range-check  -c -o sub_rhs3rd_fwd.o sub_rhs3rd_fwd.f90  
+gfortran -c -O3 -cpp -fno-range-check  -c -o sub_rhs3rd_tlm.o sub_rhs3rd_tlm.f90  
+gfortran -c -O3 -cpp -fno-range-check  -c -o sub_rhs3rd_adj.o sub_rhs3rd_adj.f90  
+gfortran -c -O3 -cpp -fno-range-check  -c -o NS2D_4DVar.o NS2D_4DVar.f90  
+gfortran  -o ./4dvar  mod_variables.o sub_check_foa.o mt19937.o m_random3.o sub_4dvar.o sub_measure.o sub_plot3d.o sub_bc_outer.o sub_bc_wall.o sub_hsmac_fwd.o sub_hsmac_tlm.o sub_hsmac_adj.o sub_initial.o sub_rhs3rd_fwd.o sub_rhs3rd_tlm.o sub_rhs3rd_adj.o NS2D_4DVar.o  
 ***pc:~/work/NS2D_4DVar/src$***  
 ***pc:~/work/NS2D_4DVar/src$ cd ../../NS2D_EnKF/src***  
 ***pc:~/work/NS2D_EnKF/src$ make***  
@@ -577,6 +594,7 @@ Installing collected packages: kiwisolver, cycler, certifi, pyparsing, matplotli
     Not uninstalling certifi at /usr/lib/python3/dist-packages, outside environment /usr  
     Can't uninstall 'certifi'. No files were found to uninstall.  
 Successfully installed certifi-2020.11.8 cycler-0.10.0 kiwisolver-1.3.1 matplotlib-3.3.2 pyparsing-2.4.7  
+***user@pc:~/work$***  
 ***user@pc:~/work$ cd NS2D_DataAssimilation***  
-***user@pc:~/work/NS2D_DataAssimilation$***
+***user@pc:~/work/NS2D_DataAssimilation$***  
 ***user@pc:~/work/NS2D_DataAssimilation$ ./runALL.sh***  
