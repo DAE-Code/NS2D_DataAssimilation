@@ -598,3 +598,4 @@ Successfully installed certifi-2020.11.8 cycler-0.10.0 kiwisolver-1.3.1 matplotl
 ***user@pc:~/work$ cd NS2D_DataAssimilation***  
 ***user@pc:~/work/NS2D_DataAssimilation$***  
 ***user@pc:~/work/NS2D_DataAssimilation$ ./runALL.sh***  
+
