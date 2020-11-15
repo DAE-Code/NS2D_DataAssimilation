@@ -401,7 +401,8 @@ pythag.f                              100%\[====================================
 gfortran -c -O3 -cpp -fno-range-check  -c -o pythag.o pythag.f  
 gfortran  -o ./enkf  mod_variables.o m_random3.o m_ranmean3.o m_ranvar3.o sub_kfilter.o sub_measure.o sub_utils.o sub_bc_outer.o sub_bc_wall.o sub_hsmac.o sub_initial.o sub_plot3d.o sub_rhs3rd.o NS2D_EnKF.o svd.o pythag.o    
 ***user@pc:~/work/NS2D_EnKF/src$***  
-***user@pc:~/work/NS2D_DataAssimilation$ sudo apt install python3 python3-pip -y***  
+***user@pc:~/work/NS2D_EnKF/src$ cd ../../***  
+***user@pc:~/work$ sudo apt install python3 python3-pip -y***  
 Reading package lists... Done  
 Building dependency tree       
 Reading state information... Done  
@@ -535,23 +536,23 @@ Setting up python3.8-dev (3.8.5-1\\~20.04) ...
 Setting up python3-dev (3.8.2-0ubuntu2) ...  
 Processing triggers for man-db (2.9.1-1) ...  
 Processing triggers for libc-bin (2.31-0ubuntu9.1) ...    
-***user@pc:~/work/NS2D_DataAssimilation$***  
-***user@pc:~/work/NS2D_DataAssimilation$ sudo pip3 install numpy***  
+***user@pc:~/work$***  
+***user@pc:~/work$ sudo pip3 install numpy***  
 Collecting numpy  
   Downloading numpy-1.19.4-cp38-cp38-manylinux2010_x86_64.whl (14.5 MB)  
      |????????????????????????????????| 14.5 MB 17.7 MB/s   
 Installing collected packages: numpy  
 Successfully installed numpy-1.19.4    
-***user@pc:~/work/NS2D_DataAssimilation$***
-***user@pc:~/work/NS2D_DataAssimilation$ sudo pip3 install scipy***  
+***user@pc:~/work$***  
+***user@pc:~/work$ sudo pip3 install scipy***  
 Collecting scipy  
   Downloading scipy-1.5.4-cp38-cp38-manylinux1_x86_64.whl (25.8 MB)  
      |????????????????????????????????| 25.8 MB 10.7 MB/s   
 Requirement already satisfied: numpy>=1.14.5 in /usr/local/lib/python3.8/dist-packages (from scipy) (1.19.4)  
 Installing collected packages: scipy  
 Successfully installed scipy-1.5.4   
-***user@pc:~/work/NS2D_DataAssimilation$***
-***user@pc:~/work/NS2D_DataAssimilation$ sudo pip3 install matplotlib***  
+***user@pc:~/work$***  
+***user@pc:~/work$ sudo pip3 install matplotlib***  
 Collecting matplotlib  
   Downloading matplotlib-3.3.2-cp38-cp38-manylinux1_x86_64.whl (11.6 MB)  
      |????????????????????????????????| 11.6 MB 1.1 MB/s   
@@ -576,5 +577,6 @@ Installing collected packages: kiwisolver, cycler, certifi, pyparsing, matplotli
     Not uninstalling certifi at /usr/lib/python3/dist-packages, outside environment /usr  
     Can't uninstall 'certifi'. No files were found to uninstall.  
 Successfully installed certifi-2020.11.8 cycler-0.10.0 kiwisolver-1.3.1 matplotlib-3.3.2 pyparsing-2.4.7  
-***user@pc:~/work/NS2D_DataAssimilation$***  
+***user@pc:~/work$ cd NS2D_DataAssimilation***  
+***user@pc:~/work/NS2D_DataAssimilation$***
 ***user@pc:~/work/NS2D_DataAssimilation$ ./runALL.sh***  
